@@ -6,4 +6,4 @@ Google Fonts for selecting new fonts
 
 Uigradients.com for background gradient colors
 
-Swiper.js for implementing home page carousel
+Flickity.js for implementing home page carousel
