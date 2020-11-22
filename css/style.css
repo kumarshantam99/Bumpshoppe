@@ -1,5 +1,6 @@
 header{
-    background:  #FAFFD1;  /* fallback for old browsers */
+    background:  #0f4c5c;
+    /* fallback for old browsers */
 
 }
 
@@ -8,9 +9,9 @@ header{
     padding-left: 0;
     padding-right: 0;
     padding-top: 0;
-    background: #A1FFCE;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to bottom, #FAFFD1, #A1FFCE);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to bottom, #FAFFD1, #A1FFCE); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #34e89e;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #0f3443, #34e89e);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #0f3443, #34e89e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
     width: 0%;
     height: 100%;
@@ -63,7 +64,8 @@ background: linear-gradient(to bottom, #FAFFD1, #A1FFCE); /* W3C, IE 10+/ Edge, 
 
   .ui .cards{
     display: flex;
-    justify-content: space-evenly;
+    flex-wrap: wrap;
+    justify-content: center;
     align-items: center;
   }
 
@@ -71,7 +73,7 @@ background: linear-gradient(to bottom, #FAFFD1, #A1FFCE); /* W3C, IE 10+/ Edge, 
     display: flex;
     flex-wrap: wrap;
     padding-left: 0;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
   }
 
@@ -80,3 +82,25 @@ background: linear-gradient(to bottom, #FAFFD1, #A1FFCE); /* W3C, IE 10+/ Edge, 
     flex:33.333333333%;
     padding-left: 0%;
   }
+  .swiper-container {
+    width: 600px;
+    height: 300px;
+}
+.right.menu{
+  background-color: #0f4c5c;
+  border:none;
+}
+.profile{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  
+}
+.ui.menu{
+  color:white;
+}
+footer{
+  margin-top: 30px;
+ 
+}
