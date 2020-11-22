@@ -3,11 +3,368 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css">
-    <title>Bumpshoppe</title>
-</head>
-<body>
-    <h1>Hello World Welcome to Bumpshoppe</h1>
     
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css">
+    
+    
+    
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <title>Bumpshoppe</title>
+    
+</head>
+<body data-barba="wrapper" onload ='if(document.cookie.indexOf("refreshcookie") == -1){
+  document.cookie="refreshcookie=1";
+  location.reload();
+  };'>
+    <div class="load-container">
+        <div class="loading-screen">
+            
+        </div>
+    </div>
+    <main data-barba="container" data-barba-namespace="home-section">
+        <header>
+            <div class="ui container">
+                <div class="ui secondary large  menu">
+                    <a class="item teal massive " href="index.html">
+                        BUMPSHOPPE
+                      </a>
+    
+                    <div class="ui center aligned container">
+                        <a class="item active teal" href="index.html">
+                            Home
+                          </a>
+                          <a class="item teal" href="catalog.html">
+                            Catalog
+                          </a>
+    
+                    </div>
+                    
+                    
+                    <div class="right menu">
+                      
+                      
+                        <a class="ui item image label large  profile">
+                            <img src='https://avataaars.io/?avatarStyle=Circle&topType=LongHairStraight&accessoriesType=Blank&hairColor=BrownDark&facialHairType=Blank&clotheType=BlazerShirt&eyeType=Default&eyebrowType=Default&mouthType=Default&skinColor=Light'
+        />
+                            Kylie
+                          </a>
+                      
+                      
+                      <a class="ui item teal">
+                        Logout
+                      </a>
+                    </div>
+                  </div>
+    
+            </div>
+            
+        </header>
+        <div class="ui container">
+          <div class="carousel"
+  data-flickity-options='{ "imagesLoaded":true,
+  "lazyLoad": 3}'>
+        <div class="carousel-cell"><img src="./assets/banner.jpg" alt="Banner"></div>
+        <div class="carousel-cell"><img src="./assets/movie.jpg" alt="Banner"></div>
+        <div class="carousel-cell"><img src="./assets/fashion.jpg" alt="Banner"></div>
+        
+    </div>
+        </div>
+    <br>
+    <br>
+        <div class="ui container">
+            <div class="ui grid">
+                <div class="four wide column"><button class="ui fluid button">Yo Testing</button></div>
+                <div class="four wide column"><button class="ui fluid button">Yo Testing</button></div>
+                <div class="four wide column"><button class="ui fluid button">Yo Testing</button></div>
+                <div class="four wide column"><button class="ui fluid button">Yo Testing</button></div>
+              </div>
+        </div>
+        <div class="ui center aligned container six wide column form segment">
+          <div class="ui cards">
+            <div class="card">
+              <div class="content">
+                <img class="right floated mini ui image" src="https://avataaars.io/?avatarStyle=Circle&topType=LongHairStraight&accessoriesType=Blank&hairColor=BrownDark&facialHairType=Blank&clotheType=BlazerShirt&eyeType=Default&eyebrowType=Default&mouthType=Default&skinColor=Light">
+                <div class="header">
+                  Elliot Fu
+                </div>
+                
+                <div class="description">
+                  Elliot requested permission to view your contact details
+                </div>
+              </div>
+              
+            </div>
+            <div class="card">
+              <div class="content">
+                <img class="right floated mini ui image" src="https://avataaars.io/?avatarStyle=Circle&topType=LongHairStraight&accessoriesType=Blank&hairColor=BrownDark&facialHairType=Blank&clotheType=BlazerShirt&eyeType=Default&eyebrowType=Default&mouthType=Default&skinColor=Light">
+                <div class="header">
+                  Elliot Fu
+                </div>
+                
+                <div class="description">
+                  Elliot requested permission to view your contact details
+                </div>
+              </div>
+              
+            </div>
+            
+            <div class="card">
+              <div class="content">
+                <img class="right floated mini ui image" src="https://avataaars.io/?avatarStyle=Circle&topType=LongHairStraight&accessoriesType=Blank&hairColor=BrownDark&facialHairType=Blank&clotheType=BlazerShirt&eyeType=Default&eyebrowType=Default&mouthType=Default&skinColor=Light">
+                <div class="header">
+                  Jenny Hess
+                </div>
+                
+                <div class="description">
+                  Jenny wants to add you to the group <b>best friends</b>
+                </div>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+
+
+        
+        <div class="ui container">
+          <div class="ui special cards">
+            <div class="card">
+              <div class="blurring dimmable image">
+                <div class="ui dimmer">
+                  <div class="content">
+                    <div class="center">
+                      <div class="ui inverted button">Add Friend</div>
+                    </div>
+                  </div>
+                </div>
+                <img src="https://avataaars.io/?avatarStyle=Circle&topType=LongHairStraight&accessoriesType=Blank&hairColor=BrownDark&facialHairType=Blank&clotheType=BlazerShirt&eyeType=Default&eyebrowType=Default&mouthType=Default&skinColor=Light">
+              </div>
+              <div class="content">
+                <a class="header">Team Fu</a>
+                <div class="meta">
+                  <span class="date">Created in Sep 2014</span>
+                </div>
+              </div>
+              <div class="extra content">
+                <a>
+                  <i class="users icon"></i>
+                  2 Members
+                </a>
+              </div>
+            </div>
+            <div class="card">
+              <div class="blurring dimmable image">
+                <div class="ui inverted dimmer">
+                  <div class="content">
+                    <div class="center">
+                      <div class="ui primary button">Add Friend</div>
+                    </div>
+                  </div>
+                </div>
+                <img src="https://avataaars.io/?avatarStyle=Circle&topType=LongHairStraight&accessoriesType=Blank&hairColor=BrownDark&facialHairType=Blank&clotheType=BlazerShirt&eyeType=Default&eyebrowType=Default&mouthType=Default&skinColor=Light">
+              </div>
+              <div class="content">
+                <a class="header">Team Hess</a>
+                <div class="meta">
+                  <span class="date">Created in Aug 2014</span>
+                </div>
+              </div>
+              <div class="extra content">
+                <a>
+                  <i class="users icon"></i>
+                  2 Members
+                </a>
+              </div>
+            </div>
+            <div class="card">
+              <div class="blurring dimmable image">
+                <div class="ui inverted dimmer">
+                  <div class="content">
+                    <div class="center">
+                      <div class="ui primary button">Add Friend</div>
+                    </div>
+                  </div>
+                </div>
+                <img src="https://avataaars.io/?avatarStyle=Circle&topType=LongHairStraight&accessoriesType=Blank&hairColor=BrownDark&facialHairType=Blank&clotheType=BlazerShirt&eyeType=Default&eyebrowType=Default&mouthType=Default&skinColor=Light">
+              </div>
+              <div class="content">
+                <a class="header">Team Hess</a>
+                <div class="meta">
+                  <span class="date">Created in Aug 2014</span>
+                </div>
+              </div>
+              <div class="extra content">
+                <a>
+                  <i class="users icon"></i>
+                  2 Members
+                </a>
+              </div>
+            </div>
+            <div class="card">
+              <div class="blurring dimmable image">
+                <div class="ui dimmer">
+                  <div class="content">
+                    <div class="center">
+                      <div class="ui inverted button">Add Friend</div>
+                    </div>
+                  </div>
+                </div>
+                <img src="https://avataaars.io/?avatarStyle=Circle&topType=LongHairStraight&accessoriesType=Blank&hairColor=BrownDark&facialHairType=Blank&clotheType=BlazerShirt&eyeType=Default&eyebrowType=Default&mouthType=Default&skinColor=Light">
+              </div>
+              <div class="content">
+                <a class="header">Team Fu</a>
+                <div class="meta">
+                  <span class="date">Created in Sep 2014</span>
+                </div>
+              </div>
+              <div class="extra content">
+                <a>
+                  <i class="users icon"></i>
+                  2 Members
+                </a>
+              </div>
+            </div>
+            <div class="card">
+              <div class="blurring dimmable image">
+                <div class="ui inverted dimmer">
+                  <div class="content">
+                    <div class="center">
+                      <div class="ui primary button">Add Friend</div>
+                    </div>
+                  </div>
+                </div>
+                <img src="https://avataaars.io/?avatarStyle=Circle&topType=LongHairStraight&accessoriesType=Blank&hairColor=BrownDark&facialHairType=Blank&clotheType=BlazerShirt&eyeType=Default&eyebrowType=Default&mouthType=Default&skinColor=Light">
+              </div>
+              <div class="content">
+                <a class="header">Team Hess</a>
+                <div class="meta">
+                  <span class="date">Created in Aug 2014</span>
+                </div>
+              </div>
+              <div class="extra content">
+                <a>
+                  <i class="users icon"></i>
+                  2 Members
+                </a>
+              </div>
+            </div>
+            <div class="card">
+              <div class="blurring dimmable image">
+                <div class="ui inverted dimmer">
+                  <div class="content">
+                    <div class="center">
+                      <div class="ui primary button">Add Friend</div>
+                    </div>
+                  </div>
+                </div>
+                <img src="https://avataaars.io/?avatarStyle=Circle&topType=LongHairStraight&accessoriesType=Blank&hairColor=BrownDark&facialHairType=Blank&clotheType=BlazerShirt&eyeType=Default&eyebrowType=Default&mouthType=Default&skinColor=Light">
+              </div>
+              <div class="content">
+                <a class="header">Team Hess</a>
+                <div class="meta">
+                  <span class="date">Created in Aug 2014</span>
+                </div>
+              </div>
+              <div class="extra content">
+                <a>
+                  <i class="users icon"></i>
+                  2 Members
+                </a>
+              </div>
+            </div>
+            <div class="card">
+              <div class="blurring dimmable image">
+                <div class="ui dimmer">
+                  <div class="content">
+                    <div class="center">
+                      <div class="ui inverted button">Add Friend</div>
+                    </div>
+                  </div>
+                </div>
+                <img src="https://avataaars.io/?avatarStyle=Circle&topType=LongHairStraight&accessoriesType=Blank&hairColor=BrownDark&facialHairType=Blank&clotheType=BlazerShirt&eyeType=Default&eyebrowType=Default&mouthType=Default&skinColor=Light">
+              </div>
+              
+              <div class="content">
+                <a class="header">Team Fu</a>
+                <div class="meta">
+                  <span class="date">Created in Sep 2014</span>
+                </div>
+              </div>
+              <div class="extra content">
+                <a>
+                  <i class="users icon"></i>
+                  2 Members
+                </a>
+              </div>
+            </div>
+            <div class="card">
+              <div class="blurring dimmable image">
+                <div class="ui inverted dimmer">
+                  <div class="content">
+                    <div class="center">
+                      <div class="ui primary button">Add Friend</div>
+                    </div>
+                  </div>
+                </div>
+                <img src="https://avataaars.io/?avatarStyle=Circle&topType=LongHairStraight&accessoriesType=Blank&hairColor=BrownDark&facialHairType=Blank&clotheType=BlazerShirt&eyeType=Default&eyebrowType=Default&mouthType=Default&skinColor=Light">
+              </div>
+              <div class="content">
+                <a class="header">Team Hess</a>
+                <div class="meta">
+                  <span class="date">Created in Aug 2014</span>
+                </div>
+              </div>
+              <div class="extra content">
+                <a>
+                  <i class="users icon"></i>
+                  2 Members
+                </a>
+              </div>
+            </div>
+            <div class="card">
+              <div class="blurring dimmable image">
+                <div class="ui inverted dimmer">
+                  <div class="content">
+                    <div class="center">
+                      <div class="ui primary button">Add Friend</div>
+                    </div>
+                  </div>
+                </div>
+                <img src="https://avataaars.io/?avatarStyle=Circle&topType=LongHairStraight&accessoriesType=Blank&hairColor=BrownDark&facialHairType=Blank&clotheType=BlazerShirt&eyeType=Default&eyebrowType=Default&mouthType=Default&skinColor=Light">
+              </div>
+              <div class="content">
+                <a class="header">Team Hess</a>
+                <div class="meta">
+                  <span class="date">Created in Aug 2014</span>
+                </div>
+              </div>
+              <div class="extra content">
+                <a>
+                  <i class="users icon"></i>
+                  2 Members
+                </a>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+
+    </main>
+    
+    
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    
+    <script src="https://unpkg.com/@barba/core"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/javascript<ntic.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js" ></script>
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <script src="js/script.js"></script>
 </body>
+
 </html>

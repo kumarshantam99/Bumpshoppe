@@ -1,0 +1,33 @@
+{
+  "name": "Bumpshoppe",
+  "version": "1.0.0",
+  "description": "Website designing for Bumpshoppe using HTML,CSS, Vanilla JS, Tailwind CSS, Semantic UI and more.",
+  "main": "index.js",
+  "dependencies": {
+    "gulp": "^4.0.2",
+    "graceful-fs": {
+      "version": "4.2.2"
+     }
+    
+  },
+  
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "preinstall": "npx npm-force-resolutions"
+  },
+  "resolutions": {
+    "graceful-fs": "^4.2.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kumarshantam99/Bumpshoppe.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kumarshantam99/Bumpshoppe/issues"
+  },
+  "homepage": "https://github.com/kumarshantam99/Bumpshoppe#readme"
+}
