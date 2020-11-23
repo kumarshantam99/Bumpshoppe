@@ -163,3 +163,54 @@ footer{
   
   padding: 5px;
 }
+
+
+#face-1{
+  animation: head 2s ease-in-out infinite alternate;
+  transform-origin:bottom;
+
+}
+
+#face-2{
+  animation: head 2s ease-in-out infinite alternate;
+  transform-origin:bottom;
+
+}
+
+#arm-1{
+  animation: head1 2s ease-in-out infinite alternate;
+  
+
+}
+#arm-2{
+  animation: head2 1.5s ease-in-out infinite alternate;
+  transform-origin: center;
+  
+
+}
+
+@keyframes head{
+  from{
+    transform: rotateX(0deg);
+
+  }to{
+    transform: rotateX(5deg);
+  }
+}
+@keyframes head1{
+  from{
+    transform: rotateX(0deg);
+
+  }to{
+    transform: rotateX(20deg);
+  }
+}
+
+@keyframes head2{
+  from{
+    transform: rotateY(0deg);
+
+  }to{
+    transform: rotateY(13deg);
+  }
+}
