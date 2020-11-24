@@ -90,7 +90,7 @@ $(function () {
     
             // load your script
             let script = document.createElement('script');
-            script.src = './js/draggable1.js'; // location of your draggable js file that is responsible for that image loading and dragging functionality
+            script.src = './draggable1.js'; // location of your draggable js file that is responsible for that image loading and dragging functionality
             next.container.appendChild(script);
             },
             
