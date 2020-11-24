@@ -40,6 +40,7 @@ background: linear-gradient(to bottom, #0f3443, #34e89e); /* W3C, IE 10+/ Edge, 
   
   body { 
     font-family: sans-serif;
+    overflow-x: hidden;
     
 }
   

@@ -14,3 +14,5 @@ TO DO:
 
 Background clip paths
 SVG in catalog
+
+Official website link: https://www.bumpshoppe.com/
