@@ -94,6 +94,16 @@ $(function () {
             next.container.appendChild(script);
             },
             
+        },{
+            namespace: 'product-section',
+            beforeEnter({ next }) {
+    
+            // load your script
+            let script = document.createElement('script');
+            script.src = './js/draggable2.js'; // location of your draggable js file that is responsible for that image loading and dragging functionality
+            next.container.appendChild(script);
+            },
+            
         },
     ]
     });

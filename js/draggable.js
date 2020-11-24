@@ -5,7 +5,9 @@ $('.special.cards .image').dimmer({
   on: 'hover'
 });
 
-
+$(document).ready(function(){
+  $(this).scrollTop(0);
+});
 var carousel = document.querySelector('.carousel');
 var flkty = new Flickity( carousel, {
   imagesLoaded: true,
